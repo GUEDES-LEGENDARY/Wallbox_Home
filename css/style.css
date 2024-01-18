@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282828;
+  background-image: url("/assets/ola.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 5px;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 15px 15px 15px;
+}
+
+#imagem_text_topo {
+  border-radius: 30px;
+  border-style: double;
+  color: aliceblue;
+  margin-right: 8px;
+}
+
+.text_navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: cadetblue;
+  padding: 15px;
+}
+
+.text_navbar span {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_navbar {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  /* border: 2px solid; */
+  width: 400px;
+  height: 50px;
+}
+
+.menu_navbar a {
+  box-shadow: 0 2px 14px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 2px solid;
+  width: 100px;
+  height: 28px;
+  color: rgb(187, 185, 185);
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+}
+
+#imagem_telegram {
+  margin-right: 5px;
+}
+
+.menu_navbar a:hover {
+  border: 3px solid;
+  background-color: rgba(255, 255, 255, 0.045);
+}
+
+/* ---------------------------------------------------- */
+
+/* IMAGEM DO TOPO DENTRO DO CONTEINER */
+
+section {
+  padding: 0 20px;
+}
+
+.container_header {
+  overflow: hidden;
+  background-image: url("/assets/wallbox_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.782);
+  flex-wrap: wrap;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  min-height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.text_container_header {
+  max-width: 650px;
+  text-align: justify;
+  padding: 15px;
+  /* border: 2px solid; */
+  font-family: "Rubik", sans-serif;
+  color: rgb(59, 98, 99);
+  word-spacing: -1px;
+}
+
+.text_container_header h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0px 0px 5px;
+  margin-bottom: -15px;
+}
+
+/* BOTÕES */
+
+.container_button_header {
+  width: 100%;
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: end;
+}
+
+.container_button_inheader {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  width: 400px;
+}
+
+.container_button_header a {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.337);
+  width: 100px;
+  height: 28px;
+  color: #125252;
+  background-color: aqua;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container_button_inheader {
+    display: initial;
+    align-items: initial;
+    padding: initial;
+    width: initial;
+  }
+}
+/* ------------------------ */

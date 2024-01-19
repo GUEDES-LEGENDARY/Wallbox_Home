@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #282828;
-  background-image: url("../assets/ola.jpg");
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +41,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: cadetblue;
+  color: rgba(238, 238, 238, 0.937);
   padding: 15px;
 }
 
@@ -75,7 +74,7 @@ header {
   border: 2px solid;
   width: 100px;
   height: 28px;
-  color: rgb(187, 185, 185);
+  color: rgba(255, 255, 255, 0.89);
   font-size: 13px;
   font-family: "Rubik", sans-serif;
 }

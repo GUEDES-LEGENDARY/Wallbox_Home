@@ -161,6 +161,10 @@ section {
   justify-content: end;
 }
 
+.container_button_header a:hover {
+  background-color: rgba(255, 255, 255, 0.045);
+}
+
 .container_button_inheader {
   display: flex;
   align-items: center;
